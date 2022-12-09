@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background-image: url('/img/banner/b2.jpg');
+
+}
+.banner-box1{
+    background-image: url('/img/banner/b17.jpg');
+
+    
+}
+.banner-box2{
+    background-image: url('/img/banner/b10.jpg');
+}
+    .active{
+        right:0rem;
+    }
+
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+#cart table thead tr td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#card-add {
+    margin-top: 5rem;
+}
